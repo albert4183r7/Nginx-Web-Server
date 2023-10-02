@@ -12,7 +12,7 @@ This README provides an overview of the three main criteria involved in the proj
     - [Criterion 2: Configure NGINX as a Reverse Proxy Server](#criterion-2-configure-nginx-as-a-reverse-proxy-server)
     - [Criterion 3: Implement Access Limits on NGINX](#criterion-3-implement-access-limits-on-nginx)
   - [Tips and Configuration Changes](#tips-and-configuration-changes)
-
+  - [Additional Notes](#additional-notes)
 
 ## Project Criteria
 The project comprises the following key criteria:
@@ -41,3 +41,6 @@ Here are some additional tips and configuration changes to consider:
 7. If necessary, navigate back to the previous folder in the console or terminal using the "cd .." command.
 8. To copy the contents of a file in the Ubuntu console or terminal to a notepad, use the `cat <file_location>` command to display the file's content, then select the text, copy it with CTRL+C, and paste it into Notepad with CTRL+V.
 9. When creating a new configuration, activate the local server in NGINX as described [here](https://stackoverflow.com/questions/68576682/nginx-this-site-can-t-be-reached).
+
+## Additional Notes
+The NGINX configuration located at /etc/nginx/sites-available/default has been copied and saved in the configuration file named konfigurasiNGINX_Albert.txt.
